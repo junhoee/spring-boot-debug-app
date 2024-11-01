@@ -40,9 +40,9 @@ ports:
 
 envs:
   - name: VAULT_SECRET_USER
-    value: <path:mzc-spring/data/java_and_vault/dev#spring.datasource.username>
+    value: "<path:mzc-spring/data/java_and_vault/dev#spring.datasource.username>"
   - name: VAULT_SECRET_PASSWORD
-    value: <path:mzc-spring/data/java_and_vault/dev#spring.datasource.password>
+    value: "<path:mzc-spring/data/java_and_vault/dev#spring.datasource.password>"
 
 log:
   level:
